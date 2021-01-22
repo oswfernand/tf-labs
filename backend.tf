@@ -1,6 +1,6 @@
 terraform {
   backend "gcs" {
-    bucket = "infra-20210121-student13xinnov-tfstate"
+    bucket = "infra-20210121-student7xinnova-tfstate"
     credentials = "./creds/jenkins-sa.json"
   }
 }
